@@ -71,7 +71,7 @@ export function Hero({ profile }) {
           <figure className="hero__portrait">
             <img src={image} alt={`Portrait of ${name}`} 
              style={{ 
-                   width: "75%", 
+                   width: "70%", 
                    height: "auto", 
                    objectFit: "contain", 
                   display: "block" 
