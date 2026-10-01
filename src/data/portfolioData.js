@@ -7,7 +7,7 @@ export const portfolioData = {
     timezone: "Asia/Dhaka",
     coordinates: "23.8103° N, 90.4125° E",
     currently: { role: "Freelance Web Developer", company: "Upwork,freelancer.com" },
-    image: "/pt.png", 
+    image: "pt.png", 
     // optional: transparent PNG in /public shows the cut-out portrait in the hero
     email: "zillu.naj@gmail.com",
     tagline: "Crafting scalable architectures and high-impact interactive web experiences.",
