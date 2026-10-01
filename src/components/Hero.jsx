@@ -69,7 +69,13 @@ export function Hero({ profile }) {
         <h1 className="hero__name display-xl">{name}</h1>
         {image && (
           <figure className="hero__portrait">
-            <img src={image} alt={`Portrait of ${name}`} />
+            <img src={image} alt={`Portrait of ${name}`} 
+             style={{ 
+                   width: "70%", 
+                   height: "auto", 
+                   objectFit: "contain", 
+                  display: "block" 
+                  }}  />
           </figure>
         )}
       </div>

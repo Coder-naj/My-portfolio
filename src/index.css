@@ -1,17 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
 @import "tailwindcss";
 
-/* Lets classes like text-bone, bg-ink, bg-accent, font-body (used in App.jsx) work
-   and follow the active theme. Remove this block if you already define them elsewhere. */
-@theme inline {
-  --color-ink: var(--bg-ink);
-  --color-bone: var(--text-bone);
-  --color-mute: var(--text-mute);
-  --color-accent: var(--accent-color);
-  --font-display: "Space Grotesk", system-ui, sans-serif;
-  --font-body: "Inter", system-ui, sans-serif;
-}
-
 :root {
   --bg-ink: #08070e;
   --text-bone: #eceaf5;
@@ -47,7 +36,12 @@ body {
 }
 
 .text-accent { color: var(--accent-color); }
+.text-bone { color: var(--text-bone); }
+.text-mute { color: var(--text-mute); }
 .bg-accent { background-color: var(--accent-color); }
+.bg-ink { background-color: var(--bg-ink); }
+.font-display { font-family: "Space Grotesk", system-ui, sans-serif; }
+.font-body { font-family: "Inter", system-ui, sans-serif; }
 
 .site-main, .site-footer { position: relative; z-index: 1; }
 
